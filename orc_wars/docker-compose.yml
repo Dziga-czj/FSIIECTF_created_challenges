@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  tcp_server:
+    build: .
+    read_only: true
+    ports:
+      - "1342:1342"
+    volumes:
+      - ./data:/data
