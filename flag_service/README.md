@@ -9,7 +9,7 @@ Medium - a bit harder if the source is not provided
 
 ## Writeup
 
-Connecting to the docker, we are welcomed with this choice :  
+Connecting to the docker, we are welcomed with this menu :  
 
 ![alt text](images/image.png)
 
