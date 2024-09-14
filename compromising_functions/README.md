@@ -57,13 +57,12 @@ We get a different $eax value, thus a diffferent flag !
 
 ### Conclusion
 
-I assume there is something I don't understand in how the registers work in GDB. 
- 
+I assume there is something I don't understand in how the registers work in GDB.   
 With some tests, i have seen that the $eax value is the same independently of the position in the function where you break. It changes only when you manually input the steps (tested with different binaries too).  
 I don't know if it's a weird GDB behaviour or if I just don't know really what $eax is. I am open to any help with this !  
-Finally, This challenge idea was probably no the best.
+Finally, This challenge idea was probably no the best.  
  
 
 ### Credits
-The challenge idea was taken from [picoCTF](https://play.picoctf.org/practice/challenge/396?category=3&page=2). 
+The challenge idea was taken from [picoCTF](https://play.picoctf.org/practice/challenge/396?category=3&page=2).  
 Thanks to Alex aka Red for sending me his output so i could figure this out.  
