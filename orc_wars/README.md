@@ -25,7 +25,6 @@ We can try to make an int overflow, by asking for a lot of mercenaries to be bou
 
 ![alt text](images/image-2.png)
 
-We can see we bought a ton of mercenaries, for (apparently) 0 gold ! In fact, the int overflow has worked, and we can see our gold has also increased a lot.  
-In fact, the price for those mercenaries was thus negative.  
+We can see we bought a ton of mercenaries, for (apparently) 0 gold ! In fact, the int overflow has worked, and we can see our gold has also increased a lot. => the price for those mercenaries was negative due to the overflow.  
 
 We then only have to attack the enemy with the new thousands of mercenaries we have, and there is the flag !
